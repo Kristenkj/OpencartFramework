@@ -14,6 +14,7 @@ class TestActions(BaseClass):
         home_page.open_cameras_page_from_hp()
         time.sleep(5)
 
+
     @allure.description("Verify navigation to the camera page from the home page and select change the product view")
     def test_change_product_view(self):
         home_page = HomePage(self.driver)
